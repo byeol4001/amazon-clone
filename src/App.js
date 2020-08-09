@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import 'App.css';
 import Header from './Header';
 import Home from './Home';
+import Checkout from './Checkout';
+import Login from './Login';
 
 const App = () => {
   return (
@@ -12,11 +14,11 @@ const App = () => {
         <Switch>
           <Route exact path="/checkout">
             <Header />
-
-            <h1>Checkout</h1>
+            <Checkout />
           </Route>
           <Route exact path="/login">
             <h1>Login Page</h1>
+            <Login />
           </Route>
           {/* this id default page */}
           <Route exact path="/">
