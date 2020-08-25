@@ -27,6 +27,9 @@ function reducer(state, action) {
       } else {
         console.warn(`Cant remove product(${action.id}) as its not exist`);
       }
+
+
+      
       return { ...state, basket: newBasket };
 
     default:

@@ -67,6 +67,7 @@ const Home = () => {
 };
 
 export default Home;
+
 const Homes = styled.section`
   max-width: 1500px;
   margin: 0 auto;

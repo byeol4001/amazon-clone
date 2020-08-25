@@ -6,6 +6,7 @@ import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
 import Login from './Login';
+import Test from './Test';
 import { useStateVaule } from './StateProvider';
 import { auth } from './firebase';
 
@@ -49,6 +50,9 @@ const App = () => {
           <Route exact path="/">
             <Header />
             <Home />
+          </Route>
+          <Route exact path="/test">
+            <Test />
           </Route>
         </Switch>
       </Apps>
